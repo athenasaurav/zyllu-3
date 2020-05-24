@@ -46,7 +46,8 @@
 - let me [know more] about [jasmine](name).
 - get the [details](details) of [aman](name).
 - please [give me](details) [kumar saurav](name)
-
+- fetch me [details](details) of [nikiTa](names)
+- fetch me [details](details) of [kuMar sauraV](name)
 
 ## intent:fetch_details_name_id
 - fetch me [id](id_details) of [kumar saurav](name)
@@ -63,16 +64,13 @@
 - what am i, [anna](name) [employee number](id_details)?
 - [id of the person](id_details) concerned with [robert](id_details).
 - what record does kumar saurav's employee have
-- the [employee id](id_details) of [kumar saurav](name). 
+- the [employee id](id_details) of [kumar saurav](name).
 - what is the [employee's record](id_details), [saurav](id_details)
-- Can i know [code](id_details) about [rajiv](name)
 - can i get [rajiv](name) [code](id_details)?
 - can i [find a code](id_details) for [raja](name)?
 - i want to [decipher code](id_details) of [anshul](name)
 - is [jessica](name) [available](id_details)?
 - you have to get [anshul](name) [details too](id_details).
-
-
 
 ## intent:fetch_details_name_designation
 - fetch me [designation](desg_details) of [kumar saurav](name)
@@ -103,7 +101,6 @@
 - the [day of born](bday) of [kumar saurav](name)
 - [Anna](name) [birthday](bday).
 - the [birhday](bday) of [austin](name)
-
 
 ## intent:fetch_details_name_designation_bday
 - fetch me [designation](desg_details) & [bday](bday) of [kumar saurav](name)
@@ -582,7 +579,7 @@
 ## intent:delete_data
 - [delete Employee data](delete)
 - i want to [remove some information](delete)
-- one employee was [fired](delete). 
+- one employee was [fired](delete).
 - one of our employee [left](delete) company.
 - [change recuritment](delete) data
 - [delete](delete) one employee from database
@@ -609,11 +606,10 @@
 - lets [remove information](delete) about [221](id)
 - [remove details](delete) of [222](id)
 
-
 ## intent:update_data
 - [update Employee data](update)
 - i want to [change some information](update)
-- one employee is [promoted](update). 
+- one employee is [promoted](update).
 - [change recuritment](update) data
 - [update](update) one employee from database
 - can you help me [update old information](update)
@@ -635,79 +631,67 @@
 - [change data](update) of employee
 - [austin](name) got [promoted](update) to [cto](post), lets [change](update) her data
 
-
-
-## lookup:birth
-  data/birth.txt
-
-## lookup:name
-  data/first-names.txt
-
-## lookup:name
-  data/male.txt
+## synonym:birthday
+- anniversary
+- name day
+- birthdays
+- the birthday
+- day of remembrance
+- natal day
 
 ## synonym:designation
 - appointment
-- nomination
-- selection
-- choice
-- choosing
-- picking
-- election
 - naming
-- identifying
-- co-opting
-- title
 - denomination
-- honorific
-- label
-- epithet
+- co-opting
 - tag
 - style
-- rank
-- status
+- choosing
 - position
+- nomination
+- label
+- choice
+- title
 - moniker
+- rank
+- honorific
+- picking
+- selection
+- identifying
+- status
+- epithet
+- election
 
 ## synonym:employee id
+- apprentice
 - agent
+- staff member
 - attendant
-- clerk
 - laborer
+- assistant
 - member
+- clerk
+- worker
 - operator
 - representative
-- staff member
-- worker
-- apprentice
-- assistant
-
-## synonym:birthday
-- name day
-- natal day
-- the birthday
-- birthdays
-- day of remembrance 
-- anniversary
-
-## synonym:profile
-- description
-- account
-- study
-- portrait
-- depiction
-- outline
-
 
 ## synonym:everything
-- each item
+- the lot
 - each thing
 - every detail
-- every single thing
-- the lot
-- the whole lot
 - the entirety
-- the total
-- the aggregate
-- all
 - entire details
+- all
+- each item
+- the aggregate
+- the total
+- the whole lot
+- every single thing
+
+## synonym:profile
+- account
+- outline
+- depiction
+- description
+- portrait
+- study

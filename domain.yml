@@ -24,12 +24,6 @@ intents:
 - fetch_details_id_designation_bday
 - fetch_details_id_designation_name
 - fetch_details_post_all
-- fetch_details_post_name
-- fetch_details_post_bday
-- fetch_details_post_id
-- fetch_details_post_name_bday
-- fetch_details_post_id_bday
-- fetch_details_post_id_name
 - fetch_details_id_designation_names
 entities:
 - bday
@@ -115,7 +109,6 @@ actions:
 - action_update_name_post
 - action_delete_name
 - action_delete_id
-- action_delete
 - utter_Q1
 - utter_Q2
 - utter_Q3
