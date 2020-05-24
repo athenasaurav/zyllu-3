@@ -1,0 +1,128 @@
+intents:
+- update_data
+- delete_data
+- greet
+- dob
+- designation
+- save_data
+- employee_id
+- name
+- goodbye
+- bot_challenge
+- fetch_details_name_all
+- fetch_details_name_id
+- fetch_details_name_bday
+- fetch_details_name_designation
+- fetch_details_name_designation_bday
+- fetch_details_name_id_bday
+- fetch_details_name_id_designation
+- fetch_details_id_all
+- fetch_details_id_name
+- fetch_details_id_bday
+- fetch_details_id_designation
+- fetch_details_id_name_bday
+- fetch_details_id_designation_bday
+- fetch_details_id_designation_name
+- fetch_details_post_all
+- fetch_details_post_name
+- fetch_details_post_bday
+- fetch_details_post_id
+- fetch_details_post_name_bday
+- fetch_details_post_id_bday
+- fetch_details_post_id_name
+- fetch_details_id_designation_names
+entities:
+- bday
+- birth
+- desg_details
+- details
+- id
+- id_details
+- name
+- names
+- post
+- save_data
+- update
+- delete
+slots:
+  bday:
+    type: unfeaturized
+  birth:
+    type: text
+  delete:
+    type: text
+  desg_details:
+    type: text
+  details:
+    type: text
+  id:
+    type: text
+  id_details:
+    type: text
+  name:
+    type: text
+  names:
+    type: text
+  post:
+    type: text
+  save_data:
+    type: text
+  update:
+    type: text
+templates:
+  utter_Q1:
+  - text: Okay. Lets do this, What is the name of New Employee?
+  utter_Q2:
+  - text: His Employee Id Please?
+  utter_Q3:
+  - text: Whats the Designation?
+  utter_Q4:
+  - text: Bithday?
+  utter_anyother_help:
+  - text: Do you want any other help?
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - text: Hey! How can i help you today?
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_update_Q1:
+  - text: Sure! What details you want to update?
+  utter_delete:
+  - text: What Details you want me to remove?
+actions:
+- action_fetch_all_details_id
+- action_fetch_all_details_name
+- action_fetch_all_details_post
+- action_fetch_bday_details_id
+- action_fetch_bday_details_name
+- action_fetch_desg_bday_details_id
+- action_fetch_desg_bday_details_name
+- action_fetch_desg_details_id
+- action_fetch_desg_details_name
+- action_fetch_id_bday_details_name
+- action_fetch_id_desg_details_name
+- action_fetch_id_details_name
+- action_fetch_name_bday_details_id
+- action_fetch_name_desg_details_id
+- action_fetch_name_details_id
+- action_save_dob
+- action_update_id_bday
+- action_update_id_name
+- action_update_id_post
+- action_update_name_bday
+- action_update_name_id
+- action_update_name_post
+- action_delete_name
+- action_delete_id
+- action_delete
+- utter_Q1
+- utter_Q2
+- utter_Q3
+- utter_Q4
+- utter_anyother_help
+- utter_goodbye
+- utter_greet
+- utter_iamabot
+- utter_update_Q1
+- utter_delete

@@ -1,0 +1,17 @@
+language: en
+pipeline:
+- name: WhitespaceTokenizer
+- name: RegexFeaturizer
+- name: CRFEntityExtractor
+- name: EntitySynonymMapper
+- name: CountVectorsFeaturizer
+- name: EmbeddingIntentClassifier
+- name: SpacyNLP
+- name: SpacyTokenizer
+- name: SpacyFeaturizer
+- name: SpacyEntityExtractor
+- name: SklearnIntentClassifier
+policies:
+- name: MemoizationPolicy
+- name: KerasPolicy
+- name: MappingPolicy
