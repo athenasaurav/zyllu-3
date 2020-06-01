@@ -1,0 +1,27 @@
+version: '3.4'
+services:
+  rasa:
+    image: 'rasa/rasa-sdk:latest'
+    command:
+      - run
+      - --cors
+      - "*"
+      - --enable-api
+      - --log-file
+      - out.log
+      - --connector
+      - slack
+      - --credentials
+      - slack_credentials.yml
+      - --endpoints
+      - endpoints.yml
+      - -m
+      - /models
+    ports:
+      - 5005:5005
+    volumes:
+      - './actions:/app/actions'
+  app:
+    image: "useename/reponame:tagname"
+    expose:
+      - '5055'

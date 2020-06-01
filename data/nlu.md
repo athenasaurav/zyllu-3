@@ -29,126 +29,129 @@
 - am I talking to a human?
 
 ## intent:fetch_details_name_all
-- fetch me [details](details) of [kumar saurav](name)
-- What is the [all details](details) of [kumar saurav](name)
-- tell me [everything](details) about [jyoti](name)
-- Can i know [something](details) about [rajiv](name)
-- what [details](details)  are saved with you for [shanmuga](name)
-- Is [jasmine](name) [available](details) with you
-- fetch me [details](details)  of [aman raj](name)
-- What is the [all details](details) of [kumar ravi](name)
-- tell me [everything](details) about [rakesh](name)
-- Can i know [something](details) about [austin](name)
-- what [details](details) are saved with you for [jessica](name)
-- Is [Jasmine](name) [available](details) with you
-- fetch me [details](details) of [suresh sharma](name)
-- get a [list of data](name) of [kumar saurav](name)
-- let me [know more] about [jasmine](name).
-- get the [details](details) of [aman](name).
-- please [give me](details) [kumar saurav](name)
-- fetch me [details](details) of [nikiTa](names)
-- fetch me [details](details) of [kuMar sauraV](name)
+- fetch me [details](details) of [KUMAR SAURAV](PERSON)
+- What is the [all details](details) of [kumar saurav](PERSON)
+- tell me [everything](details) about [jyoti](PERSON)
+- Can i know [something](details) about [RAJIV](PERSON)
+- what [details](details)  are saved with you for [SHANMUGA](PERSON)
+- Is [jasmine](PERSON) [available](details) with you
+- fetch me [details](details)  of [aman raj](PERSON)
+- What is the [all details](details) of [kumar ravi](PERSON)
+- tell me [everything](details) about [rakesh](PERSON)
+- Can i know [something](details) about [austin](PERSON)
+- what [details](details) are saved with you for [jessica](PERSON)
+- Is [Jasmine](PERSON) [available](details) with you
+- fetch me [details](details) of [suresh sharma](PERSON)
+- get a [list of data](PERSON) of [kumar saurav](PERSON)
+- let me [know more] about [jasmine](PERSON).
+- get the [details](details) of [aman](PERSON).
+- please [give me](details) [kumar saurav](PERSON)
+
 
 ## intent:fetch_details_name_id
-- fetch me [id](id_details) of [kumar saurav](name)
-- What is the [employee id](id_details) of [kumar saurav](name)
-- tell me [employee code](id_details) about [jyoti](name)
-- Can i know [code](id_details) about [rajiv](name)
-- what [employee number](id_details)  are saved with you for [shanmuga](name)
-- Is [austin](name) [available](id_details) with you
-- fetch me [employee no](id_details) of [aman raj](name)
-- fetch me [id](id_details)  of employee id [jasmine](name)
-- Is [jessica](name) [available](id_details) with you
-- i have to do something about what the [employee id](id_details) of [kumar saurav](name) is.
-- what is an [employee name](id_details) of [jessica](name)
-- what am i, [anna](name) [employee number](id_details)?
+- fetch me [id](id_details) of [kumar saurav](PERSON)
+- What is the [employee id](id_details) of [kumar saurav](PERSON)
+- tell me [employee code](id_details) about [jyoti](PERSON)
+- Can i know [code](id_details) about [rajiv](PERSON)
+- what [employee number](id_details)  are saved with you for [shanmuga](PERSON)
+- Is [austin](PERSON) [available](id_details) with you
+- fetch me [employee no](id_details) of [aman raj](PERSON)
+- fetch me [id](id_details)  of employee id [jasmine](PERSON)
+- Is [jessica](PERSON) [available](id_details) with you
+- i have to do something about what the [employee id](id_details) of [kumar saurav](PERSON) is.
+- what is an [employee name](id_details) of [jessica](PERSON)
+- what am i, [anna](PERSON) [employee number](id_details)?
 - [id of the person](id_details) concerned with [robert](id_details).
 - what record does kumar saurav's employee have
-- the [employee id](id_details) of [kumar saurav](name).
+- the [employee id](id_details) of [kumar saurav](PERSON). 
 - what is the [employee's record](id_details), [saurav](id_details)
-- can i get [rajiv](name) [code](id_details)?
-- can i [find a code](id_details) for [raja](name)?
-- i want to [decipher code](id_details) of [anshul](name)
-- is [jessica](name) [available](id_details)?
-- you have to get [anshul](name) [details too](id_details).
+- Can i know [code](id_details) about [rajiv](PERSON)
+- can i get [rajiv](PERSON) [code](id_details)?
+- can i [find a code](id_details) for [raja](PERSON)?
+- i want to [decipher code](id_details) of [anshul](PERSON)
+- is [jessica](PERSON) [available](id_details)?
+- you have to get [anshul](PERSON) [details too](id_details).
+
+
 
 ## intent:fetch_details_name_designation
-- fetch me [designation](desg_details) of [kumar saurav](name)
-- What is the [post](desg_details) of [kumar saurav](name)
-- tell me [profile](desg_details) about [jyoti](name)
-- Can i know about [rajiv](name) [at what position work](desg_details)
-- what [work profile](desg_details) are saved with you for [shanmuga](name)
-- Is [austin](name) [working](desg_details) with us
-- fetch me [desg](desg_details) of [aman raj](name)
-- fetch me [designation](desg_details) of [jyoti](name)
-- What is the [post](desg_details) of [rajiv](name)
-- Can i know about [suresh sharma](name) [at what position work](desg_details)
-- what [work profile](desg_details) are saved with you for [austin](name)
-- fetch me [desg](desg_details) of [rakesh](name)
+- fetch me [designation](desg_details) of [kumar saurav](PERSON)
+- What is the [post](desg_details) of [kumar saurav](PERSON)
+- tell me [profile](desg_details) about [jyoti](PERSON)
+- Can i know about [rajiv](PERSON) [at what position work](desg_details)
+- what [work profile](desg_details) are saved with you for [shanmuga](PERSON)
+- Is [austin](PERSON) [working](desg_details) with us
+- fetch me [desg](desg_details) of [aman raj](PERSON)
+- fetch me [designation](desg_details) of [jyoti](PERSON)
+- What is the [post](desg_details) of [rajiv](PERSON)
+- Can i know about [suresh sharma](PERSON) [at what position work](desg_details)
+- what [work profile](desg_details) are saved with you for [austin](PERSON)
+- fetch me [desg](desg_details) of [rakesh](PERSON)
 
 ## intent:fetch_details_name_bday
-- fetch me [bday](bday) of [kumar saurav](name)
-- What is the [birthday](bday) of [kumar saurav](name)
-- tell me [date of birth](bday) about [jyoti](name)
-- Can i know when [rajiv](name) was [born](bday)
-- what [date of birth](bday) are saved with you for [shanmuga](name)
-- Is [rakesh](name) [bday](bday) nearby?
-- fetch me [bdy](bday) of [aman raj](name)
+- fetch me [bday](bday) of [kumar saurav](PERSON)
+- What is the [birthday](bday) of [kumar saurav](PERSON)
+- tell me [date of birth](bday) about [jyoti](PERSON)
+- Can i know when [rajiv](PERSON) was [born](bday)
+- what [date of birth](bday) are saved with you for [shanmuga](PERSON)
+- Is [rakesh](PERSON) [bday](bday) nearby?
+- fetch me [bdy](bday) of [aman raj](PERSON)
 - fetch me [bdy](bday)  of employee id [401](id)
-- What is the [born date](bday) of [kumar saurav](name)
-- tell me [date of born](bday) about [jyoti](name)
-- Can i know [birthday](bday) about [rajiv](name)
-- the [day of born](bday) of [kumar saurav](name)
-- [Anna](name) [birthday](bday).
-- the [birhday](bday) of [austin](name)
+- What is the [born date](bday) of [kumar saurav](PERSON)
+- tell me [date of born](bday) about [jyoti](PERSON)
+- Can i know [birthday](bday) about [rajiv](PERSON)
+- the [day of born](bday) of [kumar saurav](PERSON)
+- [Anna](PERSON) [birthday](bday).
+- the [birhday](bday) of [austin](PERSON)
+
 
 ## intent:fetch_details_name_designation_bday
-- fetch me [designation](desg_details) & [bday](bday) of [kumar saurav](name)
-- What is the [post](desg_details) & [birthday](bday) of [kumar saurav](name)
-- tell me [profile](desg_details) & [date of birth](bday) about [jyoti](name)
-- Can i know about [rajiv](name) [at what position work](desg_details)  & his [born](bday)
-- what [work profile](desg_details) & [date of birth](bday) are saved with you for [shanmuga](name)
-- Is [austin](name) [working](desg_details) with us & his [bday](bday) neearby?
-- fetch me [desg](desg_details) & [bdy](bday) of [aman raj](name)
-- fetch me [designation](desg_details) & [bdy](bday) of [jyoti](name)
-- What is the [post](desg_details) & [born date](bday) of [rajiv](name)
-- tell me [profile](desg_details) & [date of born](bday) about [jyoti](name)
-- Can i know about [suresh sharma](name) [at what position work](desg_details) & his [birthday](bday)
-- what [work profile](desg_details) & [birthday](bday) are saved with you for [austin](name)
-- Is [austin](name) [working](desg_details) with us. If yes what his [birthday](bday)
-- fetch me [desg](desg_details) & [date of birth](bday) of [rakesh](name)
+- fetch me [designation](desg_details) & [bday](bday) of [kumar saurav](PERSON)
+- What is the [post](desg_details) & [birthday](bday) of [kumar saurav](PERSON)
+- tell me [profile](desg_details) & [date of birth](bday) about [jyoti](PERSON)
+- Can i know about [rajiv](PERSON) [at what position work](desg_details)  & his [born](bday)
+- what [work profile](desg_details) & [date of birth](bday) are saved with you for [shanmuga](PERSON)
+- Is [austin](PERSON) [working](desg_details) with us & his [bday](bday) neearby?
+- fetch me [desg](desg_details) & [bdy](bday) of [aman raj](PERSON)
+- fetch me [designation](desg_details) & [bdy](bday) of [jyoti](PERSON)
+- What is the [post](desg_details) & [born date](bday) of [rajiv](PERSON)
+- tell me [profile](desg_details) & [date of born](bday) about [jyoti](PERSON)
+- Can i know about [suresh sharma](PERSON) [at what position work](desg_details) & his [birthday](bday)
+- what [work profile](desg_details) & [birthday](bday) are saved with you for [austin](PERSON)
+- Is [austin](PERSON) [working](desg_details) with us. If yes what his [birthday](bday)
+- fetch me [desg](desg_details) & [date of birth](bday) of [rakesh](PERSON)
 
 ## intent:fetch_details_name_id_bday
-- fetch me [id](id_details) & [bday](bday) of [kumar saurav](name)
-- What is the [employee id](id_details) & [birthday](bday) of [kumar saurav](name)
-- tell me [employee code](id_details) & [date of birth](bday) about [jyoti](name)
-- Can i know about [rajiv](name) [code](id_details) & his [born](bday)
-- what [employee number](id_details) & [date of birth](bday) are saved with you for [shanmuga](name)
-- Is [austin](name) [available](id_details) with us & his [bday](bday) neearby?
-- fetch me [employee no](id_details) & [bdy](bday) of [aman raj](name)
-- fetch me [id](id_details) & [bdy](bday) of [jyoti](name)
-- What is the [employee id](id_details) & [born date](bday) of [rajiv](name)
-- tell me [employee code](id_details) & [date of born](bday) about [jyoti](name)
-- Can i know about [suresh sharma](name) [code](id_details) & his [birthday](bday)
-- what [employee number](id_details) & [birthday](bday) are saved with you for [austin](name)
-- Is [austin](name) [available](id_details) with us. If yes what his [birthday](bday)
-- fetch me [employee no](id_details) & [date of birth](bday) of [rakesh](name)
+- fetch me [id](id_details) & [bday](bday) of [kumar saurav](PERSON)
+- What is the [employee id](id_details) & [birthday](bday) of [kumar saurav](PERSON)
+- tell me [employee code](id_details) & [date of birth](bday) about [jyoti](PERSON)
+- Can i know about [rajiv](PERSON) [code](id_details) & his [born](bday)
+- what [employee number](id_details) & [date of birth](bday) are saved with you for [shanmuga](PERSON)
+- Is [austin](PERSON) [available](id_details) with us & his [bday](bday) neearby?
+- fetch me [employee no](id_details) & [bdy](bday) of [aman raj](PERSON)
+- fetch me [id](id_details) & [bdy](bday) of [jyoti](PERSON)
+- What is the [employee id](id_details) & [born date](bday) of [rajiv](PERSON)
+- tell me [employee code](id_details) & [date of born](bday) about [jyoti](PERSON)
+- Can i know about [suresh sharma](PERSON) [code](id_details) & his [birthday](bday)
+- what [employee number](id_details) & [birthday](bday) are saved with you for [austin](PERSON)
+- Is [austin](PERSON) [available](id_details) with us. If yes what his [birthday](bday)
+- fetch me [employee no](id_details) & [date of birth](bday) of [rakesh](PERSON)
 
 ## intent:fetch_details_name_id_designation
-- fetch me [id](id_details) & [designation](desg_details) of [kumar saurav](name)
-- What is the [employee id](id_details) & [post](desg_details) of [kumar saurav](name)
-- tell me [employee code](id_details) & [profile](desg_details) about [jyoti](name)
-- Can i know about [rajiv](name) [code](id_details) & his [at what position work](desg_details)
-- what [employee number](id_details) & [work profile](desg_details) are saved with you for [shanmuga](name)
-- Is [austin](name) [available](id_details) with us & his [working](desg_details) neearby?
-- fetch me [employee no](id_details) & [working](desg_details) of [aman raj](name)
-- fetch me [id](id_details) & [desg](desg_details) of [jyoti](name)
-- What is the [employee id](id_details) & [designation](desg_details)) of [rajiv](name)
-- tell me [employee code](id_details) & [post](desg_details) about [jyoti](name)
-- Can i know about [suresh sharma](name) [code](id_details) & his [profile](desg_details)
-- what [employee number](id_details) & [work profile](desg_details) are saved with you for [austin](name)
-- Is [austin](name) [available](id_details) with us. If yes what his [working](desg_details) area
-- fetch me [employee no](id_details) & [desg](desg_details) of [rakesh](name)
+- fetch me [id](id_details) & [designation](desg_details) of [kumar saurav](PERSON)
+- What is the [employee id](id_details) & [post](desg_details) of [kumar saurav](PERSON)
+- tell me [employee code](id_details) & [profile](desg_details) about [jyoti](PERSON)
+- Can i know about [rajiv](PERSON) [code](id_details) & his [at what position work](desg_details)
+- what [employee number](id_details) & [work profile](desg_details) are saved with you for [shanmuga](PERSON)
+- Is [austin](PERSON) [available](id_details) with us & his [working](desg_details) neearby?
+- fetch me [employee no](id_details) & [working](desg_details) of [aman raj](PERSON)
+- fetch me [id](id_details) & [desg](desg_details) of [jyoti](PERSON)
+- What is the [employee id](id_details) & [designation](desg_details)) of [rajiv](PERSON)
+- tell me [employee code](id_details) & [post](desg_details) about [jyoti](PERSON)
+- Can i know about [suresh sharma](PERSON) [code](id_details) & his [profile](desg_details)
+- what [employee number](id_details) & [work profile](desg_details) are saved with you for [austin](PERSON)
+- Is [austin](PERSON) [available](id_details) with us. If yes what his [working](desg_details) area
+- fetch me [employee no](id_details) & [desg](desg_details) of [rakesh](PERSON)
 
 ## intent:fetch_details_id_all
 - fetch me [details](details) of employee_id[210](id)
@@ -169,6 +172,7 @@
 - Can i know [something](details) about employee id [217](id)
 - what [details](details)  are saved with you for employee id [218](id)
 - Is employee id [219](id) [available](details) with you
+- i want [to know](details) about employee [212](id)
 
 ## intent:fetch_details_id_name
 - What is the [name](names) of employee id [211](id)
@@ -182,7 +186,7 @@
 - what [last name](names)  are saved with you for employee id [172](id)
 - Is employee id [230](id) [firstname](names) with you
 - Is employee id [232](id) [lastname](names) with you
-- What is the [names](name) of employee id [215](id)
+- What is the [names](PERSON) of employee id [215](id)
 - tell me [name value](names) about employee id [216](id)
 - Can i know [name](names) about employee id [217](id)
 - what [fullname](names) are saved with you for employee id [218](id)
@@ -227,7 +231,7 @@
 - what [last name](names) & [work profile](desg_details) are saved with you for employee id [172](id)
 - Is employee id [230](id) [firstname](names) & [work profile](desg_details) with you
 - Is employee id [232](id) [lastname](names) & [work profile](desg_details) with you
-- What is the [names](name) & [work profile](desg_details) of employee id [215](id)
+- What is the [names](PERSON) & [work profile](desg_details) of employee id [215](id)
 - tell me [name value](names) about employee id [216](id)
 - Can i know [name](names) & [working](desg_details) area about employee id [217](id)
 - what [fullname](names) & [working](desg_details) are saved with you for employee id [218](id)
@@ -298,85 +302,85 @@
 - someone recently joined in, lets [save](save_data) his data](save_data)
 - lets [save](save_data) some data
 - i want to [save data](save_data).
-- [rakesh](name) recently joined in, lets [save](save_data) his data
-- [jasmine](name) recently joined in, i want to [save](save_data) her data
-- lets [save](save_data) [rakesh](name) data
-- i want to [save](save_data) [Kumar Saurav](name) data.
+- [rakesh](PERSON) recently joined in, lets [save](save_data) his data
+- [jasmine](PERSON) recently joined in, i want to [save](save_data) her data
+- lets [save](save_data) [rakesh](PERSON) data
+- i want to [save](save_data) [Kumar Saurav](PERSON) data.
 - Lets [save details](save_data) of employee_id [222](id)
 - [222](id) recently joined in, lets [save](save_data) his data
 - lets [save](save_data) [312](id) data
 - i want to [save data](save_data)
-- i want to [save data](save_data) of [kiran](name)
+- i want to [save data](save_data) of [kiran](PERSON)
 - i want to [save data](save_data) of employee id [235](id)
 
 ## intent:name
-- [Kumar Saurav](name)
-- myself [James](name)
-- my first name is [Ravi](name)
-- [Kiran](name)
-- u can call me [Shubham Singh](name)
-- i m known as [Rachel Singh](name)
-- [Hawaijahaj](name)
-- [john](name)
-- [Michael](name)
-- [Christopher](name)
-- [Jessica](name)
-- [Matthew](name)
-- [Ashley](name)
-- [Jennifer](name)
-- [Joshua](name)
-- [Amanda](name)
-- [Daniel](name)
-- [David](name)
-- [James](name)
-- [Robert](name)
-- [John](name)
-- [Joseph](name)
-- [Andrew](name)
-- [Ryan](name)
-- [Brandon](name)
-- [Jason](name)
-- [Justin](name)
-- [Sarah](name)
-- [William](name)
-- [Jonathan](name)
-- [Stephanie](name)
-- [Brian](name)
-- [Kumar Ravi](name)
-- [Aman Raj](name)
-- [kumar saurav](name)
-- myself [james](name)
-- my first name is [ravi](name)
-- [kiran](name)
-- u can call me [shubham singh](name)
-- i m known as [rachel singh](name)
-- [hawaijahaj](name)
-- [michael](name)
-- [christopher](name)
-- [jessica](name)
-- [matthew](name)
-- [ashley](name)
-- [jennifer](name)
-- [joshua](name)
-- [amanda](name)
-- [daniel](name)
-- [david](name)
-- [james](name)
-- [robert](name)
-- [joseph](name)
-- [andrew](name)
-- [ryan](name)
-- [brandon](name)
-- [jason](name)
-- [justin](name)
-- [sarah](name)
-- [william](name)
-- [jonathan](name)
-- [stephanie](name)
-- [brian](name)
-- [kumar ravi](name)
-- [aman raj](name)
-- [austin](name)
+- [Kumar Saurav](PERSON)
+- myself [James](PERSON)
+- my first name is [Ravi](PERSON)
+- [Kiran](PERSON)
+- u can call me [Shubham Singh](PERSON)
+- i m known as [Rachel Singh](PERSON)
+- [Hawaijahaj](PERSON)
+- [john](PERSON)
+- [Michael](PERSON)
+- [Christopher](PERSON)
+- [Jessica](PERSON)
+- [Matthew](PERSON)
+- [Ashley](PERSON)
+- [Jennifer](PERSON)
+- [Joshua](PERSON)
+- [Amanda](PERSON)
+- [DANIEL](PERSON)
+- [David](PERSON)
+- [ARYA](PERSON)
+- [ROBErt](PERSON)
+- [John](PERSON)
+- [Joseph](PERSON)
+- [Andrew](PERSON)
+- [Ryan](PERSON)
+- [Brandon](PERSON)
+- [Jason](PERSON)
+- [Justin](PERSON)
+- [Sarah](PERSON)
+- [William](PERSON)
+- [Jonathan](PERSON)
+- [Stephanie](PERSON)
+- [Brian](PERSON)
+- [Kumar Ravi](PERSON)
+- [Aman Raj](PERSON)
+- [kumar saurav](PERSON)
+- myself [james](PERSON)
+- my first name is [ravi](PERSON)
+- [kiran](PERSON)
+- u can call me [shubham singh](PERSON)
+- i m known as [rachel singh](PERSON)
+- [hawaijahaj](PERSON)
+- [michael](PERSON)
+- [christopher](PERSON)
+- [jessica](PERSON)
+- [matthew](PERSON)
+- [ashley](PERSON)
+- [jennifer](PERSON)
+- [joshua](PERSON)
+- [amanda](PERSON)
+- [daniel](PERSON)
+- [david](PERSON)
+- [james](PERSON)
+- [robert](PERSON)
+- [joseph](PERSON)
+- [andrew](PERSON)
+- [ryan](PERSON)
+- [brandon](PERSON)
+- [jason](PERSON)
+- [justin](PERSON)
+- [sarah](PERSON)
+- [william](PERSON)
+- [jonathan](PERSON)
+- [stephanie](PERSON)
+- [brian](PERSON)
+- [kumar ravi](PERSON)
+- [aman raj](PERSON)
+- [austin](PERSON)
 
 ## intent:employee_id
 - [220](id)
@@ -486,7 +490,7 @@
 - [production manager](post)
 - [operations manager](post)
 - [quality control manager](post)
-- [[safety and environmental manager](post)]
+- [[safety and environmental manager](post)
 - [office manager](post)
 - [receptionist](post)
 - [purchasing manager](post)
@@ -506,6 +510,54 @@
 - [chief innovation officer](post)
 - [cio](post)
 - [founder](post)
+- [Chief Administrative Officer](post)
+- [CAO](post)
+- [Chief Analytics Officer](post)
+- [CAO](post)
+- [Chief Brand Officer](post)
+- [CBO](post)
+- [Chief Business Development Officer](post)
+- [CBDO](post)
+- [Chief Business Officer](post)
+- [CBO](post)
+- [Chief Commercial Officer](post)
+- [CCO](post)
+- [Chief Communications Officer](post)
+- [CCO](post)
+- [Chief Compliance Officer](post)
+- [CCO](post)
+- [Chief Creative Officer](post)
+- [CCO](post)
+- [Chief Content Officer](post)
+- [CCO](post)
+- [Chief Customer Officer](post)
+- [CCO](post)
+- [Chief Data Officer](post)
+- [CDO](post)
+- [Chief Design Officer](post)
+- [CDO](post)
+- [Chief Digital Officer](post)
+- [CDO](post)
+- [Chief Diversity Officer](post)
+- [CDO](post)
+- [Chief Events Officer](post)
+- [CVO](post)
+- [Chief Executive Officer](post)
+- [CEO](post)
+- [Chief Experience Officer](post)
+- [CXO](post)
+- [Chief Financial Officer](post)
+- [CFO](post)
+- [Chief Gaming Officer](post)
+- [CGO](post)
+- [Chief Genealogical Officer](post)
+- [CGO](post)
+- [Chief Growth Officer] (post)
+- [CGO](post)
+- [Chief Human Resources Officer](post)
+- [CHRO](post)
+- [Chief Information Officer](post)
+- [CIO](post)
 
 ## intent:dob
 - his birth details are [19-07-1992](birth)
@@ -579,7 +631,7 @@
 ## intent:delete_data
 - [delete Employee data](delete)
 - i want to [remove some information](delete)
-- one employee was [fired](delete).
+- one employee was [fired](delete). 
 - one of our employee [left](delete) company.
 - [change recuritment](delete) data
 - [delete](delete) one employee from database
@@ -589,14 +641,14 @@
 - how about [removing redundant](delete) information
 - one employee data is now [redundant](delete)
 - lets [delete](delete) some data
-- [kiran](name) got [fired](delete) from company.
-- [rakesh](name) [left](delete) our company.
-- [kumar saurav](name) [no more](delete) works with us.
-- i want to [remove information](delete) about [rajiv](name)
-- i want to [remove information all](delete) about [rajiv](name)
-- i want to [remove all information](delete) about [rajiv](name)
-- lets [remove information](delete) about [austin](name)
-- [remove details](delete) of [naina](name)
+- [kiran](PERSON) got [fired](delete) from company.
+- [rakesh](PERSON) [left](delete) our company.
+- [kumar saurav](PERSON) [no more](delete) works with us.
+- i want to [remove information](delete) about [rajiv](PERSON)
+- i want to [remove information all](delete) about [rajiv](PERSON)
+- i want to [remove all information](delete) about [rajiv](PERSON)
+- lets [remove information](delete) about [austin](PERSON)
+- [remove details](delete) of [naina](PERSON)
 - [213](id) got [fired](delete) from company.
 - [215](id) [left](delete) our company.
 - [217](id) [no more](delete) works with us.
@@ -606,10 +658,11 @@
 - lets [remove information](delete) about [221](id)
 - [remove details](delete) of [222](id)
 
+
 ## intent:update_data
 - [update Employee data](update)
 - i want to [change some information](update)
-- one employee is [promoted](update).
+- one employee is [promoted](update). 
 - [change recuritment](update) data
 - [update](update) one employee from database
 - can you help me [update old information](update)
@@ -618,80 +671,115 @@
 - how about [updating redundant](update) information
 - one employee data is now [changed](update)
 - lets [update](update) some data
-- [kiran](name) got [promoted](update) to [cto](post).
-- [adaline](name) got promoted to [cto](post), [change](update) her data.
-- [update](update) [kumar saurav](name) [birthday](bday) to [19-04-1988](birth).
-- [austin](name) [new](update) [employee id](id_details) is [232](id)
-- [rajiv](name) got [promotion](update) to [cfo](post)
-- [change](update) [jasmine](name) [birthday](bday) to [17-04-1992](birth)
-- [brian](name) [upgraded](update) [employee id](id_details) is [322](id)
+- [kiran](PERSON) got [promoted](update) to [cto](post).
+- [adaline](PERSON) got promoted to [cto](post), [change](update) her data.
+- [update](update) [kumar saurav](PERSON) [birthday](bday) to [19-04-1988](birth).
+- [austin](PERSON) [new](update) [employee id](id_details) is [232](id)
+- [rajiv](PERSON) got [promotion](update) to [cfo](post)
+- [change](update) [jasmine](PERSON) [birthday](bday) to [17-04-1992](birth)
+- [brian](PERSON) [upgraded](update) [employee id](id_details) is [322](id)
 - [222](id) got [promoted](update) to [cto](post)
 - [update](update) [218](id) [birthday](bday) to [07-02-1993](birth).
-- [230](id) [employee id](id_details) [now belongs](update) to [rakesh](name)
+- [230](id) [employee id](id_details) [now belongs](update) to [rakesh](PERSON)
 - [change data](update) of employee
-- [austin](name) got [promoted](update) to [cto](post), lets [change](update) her data
+- [austin](PERSON) got [promoted](update) to [cto](post), lets [change](update) her 
 
-## synonym:birthday
-- anniversary
-- name day
-- birthdays
-- the birthday
-- day of remembrance
-- natal day
+## intent:fetch_names
+
+- i want to [fetch all the names](all_names) saved with you.
+- fetch me [all the name saved](all_names)
+- get me [fullname of all the employees](all_names)
+- give me [name of all the employees](all_names)
+- i want to know [names of all the employee](all_names)
+- fetch me [name details of all employees](all_names)
+- can you get me [names of all employee](all_names)
+- fetch me the [names of all employee](all_names)
+- fetch me [all the names of employed](all_names) with us
+- fetch me [names of employees in our company](all_names)
+- i want to know [names of who works here](all_names)
+
+## intent:fetch_ids
+
+- i want to [fetch all the employee id](all_id) saved with you.
+- fetch me [all the id saved](all_names)
+- fetch me the [ids of all employee](all_id)
+- get me [employee id of all the employees](all_id)
+- give me [employee code of all the employees](all_id)
+- i want to know [code of all the employee](all_id)
+- fetch me [id details of all employees](all_id)
+- can you get me [employee ids of all employee](all_id)
+- fetch me [all the ids of employed](all_id) with us
+- fetch me [employee codes of employees in our company](all_id)
+- i want to know [codes of who works here](all_id)
+
+
+
+## lookup:birth
+  data/birth.txt
+
 
 ## synonym:designation
 - appointment
+- nomination
+- selection
+- choice
+- choosing
+- picking
+- election
 - naming
-- denomination
+- identifying
 - co-opting
+- title
+- denomination
+- honorific
+- label
+- epithet
 - tag
 - style
-- choosing
-- position
-- nomination
-- label
-- choice
-- title
-- moniker
 - rank
-- honorific
-- picking
-- selection
-- identifying
 - status
-- epithet
-- election
+- position
+- moniker
 
 ## synonym:employee id
-- apprentice
 - agent
-- staff member
 - attendant
-- laborer
-- assistant
-- member
 - clerk
-- worker
+- laborer
+- member
 - operator
 - representative
+- staff member
+- worker
+- apprentice
+- assistant
 
-## synonym:everything
-- the lot
-- each thing
-- every detail
-- the entirety
-- entire details
-- all
-- each item
-- the aggregate
-- the total
-- the whole lot
-- every single thing
+## synonym:birthday
+- name day
+- natal day
+- the birthday
+- birthdays
+- day of remembrance 
+- anniversary
 
 ## synonym:profile
-- account
-- outline
-- depiction
 - description
-- portrait
+- account
 - study
+- portrait
+- depiction
+- outline
+
+
+## synonym:everything
+- each item
+- each thing
+- every detail
+- every single thing
+- the lot
+- the whole lot
+- the entirety
+- the total
+- the aggregate
+- all
+- entire details

@@ -5,6 +5,10 @@ pipeline:
 - name: CRFEntityExtractor
 - name: EntitySynonymMapper
 - name: CountVectorsFeaturizer
+- name: CountVectorsFeaturizer
+  analyzer: char_wb
+  min_ngram: 1
+  max_ngram: 6
 - name: EmbeddingIntentClassifier
 - name: SpacyNLP
 - name: SpacyTokenizer
